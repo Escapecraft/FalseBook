@@ -1,6 +1,6 @@
 name: FalseBookIC
 main: com.bukkit.gemo.FalseBook.IC.FalseBookICCore
-version: 0.93.1alpha
+version: ${project.version}
 depend: [FalseBookCore]
 commands:
     fbic:
