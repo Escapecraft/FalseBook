@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.escapecraft.falsebook</groupId>
   <artifactId>FalseBookIC</artifactId>
-  <version>0.93.1alpha</version>
+  <version>0.93.1alpha-ec</version>
   <packaging>jar</packaging>
   <name>FalseBookIC</name>
   <url></url>
