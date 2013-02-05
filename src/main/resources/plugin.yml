@@ -1,0 +1,8 @@
+name: FalseBookIC
+main: com.bukkit.gemo.FalseBook.IC.FalseBookICCore
+version: 0.93.1alpha
+depend: [FalseBookCore]
+commands:
+    fbic:
+        description: FalseBookIC related commands.
+        usage: /<command> <cmd 1> ... <cmd n>
