@@ -1,0 +1,3 @@
+name: FalseBookCore
+main: com.bukkit.gemo.FalseBook.Core.FalseBookCore
+version: ${project.version}

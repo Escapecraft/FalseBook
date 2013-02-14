@@ -1,0 +1,4 @@
+name: FalseBookExtra
+main: com.bukkit.gemo.FalseBook.Extra.FalseBookExtraCore
+version: ${project.version}
+depend: [FalseBookCore]

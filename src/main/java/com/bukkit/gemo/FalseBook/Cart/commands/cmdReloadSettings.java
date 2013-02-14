@@ -1,0 +1,32 @@
+package com.bukkit.gemo.FalseBook.Cart.commands;
+
+import com.bukkit.gemo.FalseBook.Cart.FalseBookCartCore;
+import com.bukkit.gemo.commands.Command;
+import com.bukkit.gemo.utils.ChatUtils;
+import com.bukkit.gemo.utils.UtilPermissions;
+import org.bukkit.ChatColor;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+
+public class cmdReloadSettings extends Command {
+
+   public cmdReloadSettings(String pluginName, String syntax, String arguments, String node) {
+      super(pluginName, syntax, arguments, node);
+      this.description = "Reload the Cart-Settings";
+   }
+
+   public void execute(String[] args, CommandSender sender) {
+      if(sender instanceof Player) {
+         Player player = (Player)sender;
+         if(!UtilPermissions.playerCanUseCommand(player, "falsebook.admin.cart")) {
+            ChatUtils.printError(player, this.pluginName, "You are not allowed to use this command.");
+            return;
+         }
+      }
+
+      ChatUtils.printInfo(sender, "[FB-Cart]", ChatColor.YELLOW, "Reloading Cart-Settings...");
+      FalseBookCartCore.getSettings().clear();
+      FalseBookCartCore.getInstance().loadWorldSettings();
+      ChatUtils.printInfo(sender, "[FB-Cart]", ChatColor.YELLOW, "Cart-Settings reloaded successfully!");
+   }
+}

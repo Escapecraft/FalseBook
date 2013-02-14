@@ -1,0 +1,42 @@
+package com.bukkit.gemo.FalseBook.Block.World;
+
+
+public enum EnumSettings {
+
+   BRIDGE_ENABLED("BRIDGE_ENABLED", 0, "BridgeEnabled"),
+   BRIDGE_MAX_SIDEWIDTH("BRIDGE_MAX_SIDEWIDTH", 1, "MaxBridgeSideWidth"),
+   BRIDGE_MAX_LENGTH("BRIDGE_MAX_LENGTH", 2, "MaxBridgeLength"),
+   BRIDGE_ALLOW_REDSTONE("BRIDGE_ALLOW_REDSTONE", 3, "allowRedstoneForBridges"),
+   BRIDGE_ALLOWED_BLOCKS("BRIDGE_ALLOWED_BLOCKS", 4, "allowedBridgeBlocks"),
+   DOOR_ENABLED("DOOR_ENABLED", 5, "DoorEnabled"),
+   DOOR_MAX_SIDEWIDTH("DOOR_MAX_SIDEWIDTH", 6, "MaxDoorSideWidth"),
+   DOOR_MAX_HEIGHT("DOOR_MAX_HEIGHT", 7, "MaxDoorHeight"),
+   DOOR_ALLOW_REDSTONE("DOOR_ALLOW_REDSTONE", 8, "allowRedstoneForDoors"),
+   DOOR_ALLOWED_BLOCKS("DOOR_ALLOWED_BLOCKS", 9, "allowedDoorBlocks"),
+   GATE_ENABLED("GATE_ENABLED", 10, "GateEnabled"),
+   GATE_MAX_WIDTH("GATE_MAX_WIDTH", 11, "maxGateWidth"),
+   GATE_MAX_HEIGHT("GATE_MAX_HEIGHT", 12, "maxGateHeight"),
+   GATE_ALLOW_REDSTONE("GATE_ALLOW_REDSTONE", 13, "allowRedstoneForGates"),
+   GATE_ALLOWED_BLOCKS("GATE_ALLOWED_BLOCKS", 14, "allowedGateBlocks"),
+   AREA_TOOL("AREA_TOOL", 15, "AreaSelectionTool"),
+   AREA_ALLOW_REDSTONE("AREA_ALLOW_REDSTONE", 16, "allowRedstoneForAreas"),
+   CAULDRON_NATIVE("CAULDRON_NATIVE", 17, "AllowMinecraftCauldron"),
+   CAULDRON_COOLDOWN("CAULDRON_COOLDOWN", 18, "CauldronCoolDownInSeconds"),
+   LIGHTSWITCH_ENABLED("LIGHTSWITCH_ENABLED", 19, "LightswitchEnabled"),
+   LIGHTSWITCH_MAX_TOGGLE("LIGHTSWITCH_MAX_TOGGLE", 20, "MaxLightswitchToggle"),
+   LWC_RESPECT("LWC_RESPECT", 21, "respectLWCProtections"),
+   BOOKSHELFS_ENABLED("BOOKSHELFS_ENABLED", 22, "ReadableBookshelfs"),
+   APPLE_DROP_CHANCE("APPLE_DROP_CHANCE", 23, "AppleDropChance");
+   private final String thisName;
+   // $FF: synthetic field
+   private static final EnumSettings[] ENUM$VALUES = new EnumSettings[]{BRIDGE_ENABLED, BRIDGE_MAX_SIDEWIDTH, BRIDGE_MAX_LENGTH, BRIDGE_ALLOW_REDSTONE, BRIDGE_ALLOWED_BLOCKS, DOOR_ENABLED, DOOR_MAX_SIDEWIDTH, DOOR_MAX_HEIGHT, DOOR_ALLOW_REDSTONE, DOOR_ALLOWED_BLOCKS, GATE_ENABLED, GATE_MAX_WIDTH, GATE_MAX_HEIGHT, GATE_ALLOW_REDSTONE, GATE_ALLOWED_BLOCKS, AREA_TOOL, AREA_ALLOW_REDSTONE, CAULDRON_NATIVE, CAULDRON_COOLDOWN, LIGHTSWITCH_ENABLED, LIGHTSWITCH_MAX_TOGGLE, LWC_RESPECT, BOOKSHELFS_ENABLED, APPLE_DROP_CHANCE};
+
+
+   private EnumSettings(String var1, int var2, String name) {
+      this.thisName = name;
+   }
+
+   public String getName() {
+      return this.thisName;
+   }
+}

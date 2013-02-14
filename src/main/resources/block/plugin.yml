@@ -1,0 +1,26 @@
+name: FalseBookBlock
+main: com.bukkit.gemo.FalseBook.Block.FalseBookBlockCore
+version: ${project.version}
+depend: [FalseBookCore]
+commands:
+  fbblock:
+    description: FalseBookBlock related commands.
+    usage: /<command> <cmd 1> ... <cmd n>
+  farea:
+    description: Save selected area.
+    usage: /<command> <areaname>
+  fareatoggle:
+    description: Toggle the state.
+    usage: /<command> <areaname>
+  fareaallow:
+    description: Adds/Removes a blocktype to the toggleable blocks.
+    usage: /<command> <areaname> <ID>[:<SUBID>]
+  farealistallow:
+    description: List all toggleable blocks of an area
+    usage: /<command> <areaname>  
+  listfarea:
+    description: List all areas.
+    usage: /<command>
+  delfarea:
+    description: Delete Area.
+    usage: /<command> <areaname> 

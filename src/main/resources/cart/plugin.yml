@@ -1,0 +1,11 @@
+name: FalseBookCart
+main: com.bukkit.gemo.FalseBook.Cart.FalseBookCartCore
+version: ${project.version}
+depend: [FalseBookCore]
+commands:
+    fbcart:
+        description: FalseBookCart related commands.
+        usage: /<command> <cmd 1> ... <cmd n>
+    fbst:
+        description: set player station
+        usage: /command <station-name>
