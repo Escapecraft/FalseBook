@@ -1,0 +1,3 @@
+name: DetectionPackage
+main: com.bukkit.gemo.FalseBook.IC.ICs.detection.DetectionPackage
+version: ${project.version}

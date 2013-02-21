@@ -1,0 +1,3 @@
+name: StandardPackage
+main: com.bukkit.gemo.FalseBook.IC.ICs.standard.StandardPackage
+version: ${project.version}

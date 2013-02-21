@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.escapecraft.falsebook</groupId>
-  <artifactId>FalseBookIC</artifactId>
+  <artifactId>Package_WorldEditICs</artifactId>
   <version>0.93.1alpha-1.4.7-ec</version>
   <packaging>jar</packaging>
-  <name>FalseBookIC</name>
+  <name>DectectionICs</name>
   <url></url>
 
   <properties>
@@ -41,7 +41,7 @@
       <resource>
         <targetPath>.</targetPath>
         <filtering>true</filtering>
-        <directory>${basedir}/src/main/resources/ic</directory>
+        <directory>${basedir}/src/main/resources/worldedit</directory>
       </resource>
     </resources>
     <extensions>
@@ -59,15 +59,7 @@
         <configuration>
             <includes>
                 <include>plugin.yml</include>
-                <include>com/bukkit/gemo/FalseBook/IC/*</include>
-                <include>com/bukkit/gemo/FalseBook/IC/ExecutionEvents/*</include>
-                <include>com/bukkit/gemo/FalseBook/IC/Listeners/*</include>
-                <include>com/bukkit/gemo/FalseBook/IC/commands/*</include>
-                <include>com/bukkit/gemo/FalseBook/IC/Plugins/*</include>
-                <include>com/bukkit/gemo/FalseBook/IC/ICs/*</include>
-                <include>com/bukkit/gemo/FalseBook/IC/ICs/selftriggered/MC0111.class</include>
-                <include>com/bukkit/gemo/FalseBook/IC/ICs/selftriggered/MC1110.class</include>
-                <include>com/bukkit/gemo/FalseBook/IC/ICs/standard/MC1111.class</include>
+                <include>com/bukkit/gemo/FalseBook/IC/ICs/worldedit/**</include>
             </includes>
         </configuration>
       </plugin>

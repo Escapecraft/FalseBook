@@ -1,0 +1,3 @@
+name: SelftriggeredPackage
+main: com.bukkit.gemo.FalseBook.IC.ICs.selftriggered.SelftriggeredPackage
+version: ${project.version}
