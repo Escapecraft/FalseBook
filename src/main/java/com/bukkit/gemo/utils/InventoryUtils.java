@@ -4,8 +4,8 @@ import com.bukkit.gemo.utils.BlockUtils;
 import com.bukkit.gemo.utils.FBBlockType;
 import com.bukkit.gemo.utils.FBItemType;
 import org.bukkit.Material;
-import org.bukkit.craftbukkit.v1_4_R1.inventory.CraftInventory;
-import org.bukkit.craftbukkit.v1_4_R1.inventory.CraftItemStack;
+import org.bukkit.craftbukkit.v1_5_R2.inventory.CraftInventory;
+import org.bukkit.craftbukkit.v1_5_R2.inventory.CraftItemStack;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 

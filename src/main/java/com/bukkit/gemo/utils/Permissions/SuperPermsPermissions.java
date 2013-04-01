@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity;
+import org.bukkit.craftbukkit.v1_5_R2.entity.CraftHumanEntity;
 import org.bukkit.entity.Player;
 import org.bukkit.permissions.PermissionAttachmentInfo;
 
