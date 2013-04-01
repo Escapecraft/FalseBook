@@ -1,13 +1,13 @@
 package com.bukkit.gemo.FalseBook.Cart.utils;
 
 import java.util.ArrayList;
-import net.minecraft.server.v1_4_R1.CraftingManager;
-import net.minecraft.server.v1_4_R1.IRecipe;
-import net.minecraft.server.v1_4_R1.InventoryCrafting;
-import net.minecraft.server.v1_4_R1.Item;
-import net.minecraft.server.v1_4_R1.ItemStack;
-import net.minecraft.server.v1_4_R1.ShapelessRecipes;
-import net.minecraft.server.v1_4_R1.World;
+import net.minecraft.server.v1_5_R2.CraftingManager;
+import net.minecraft.server.v1_5_R2.IRecipe;
+import net.minecraft.server.v1_5_R2.InventoryCrafting;
+import net.minecraft.server.v1_5_R2.Item;
+import net.minecraft.server.v1_5_R2.ItemStack;
+import net.minecraft.server.v1_5_R2.ShapelessRecipes;
+import net.minecraft.server.v1_5_R2.World;
 
 public class FBCraftingManager {
 
@@ -32,10 +32,10 @@ public class FBCraftingManager {
          }
       }
 
-      if(i == 2 && itemstack.id == itemstack1.id && itemstack.count == 1 && itemstack1.count == 1 && Item.byId[itemstack.id].n()) {
+      if(i == 2 && itemstack.id == itemstack1.id && itemstack.count == 1 && itemstack1.count == 1 && Item.byId[itemstack.id].o()) {
          Item var12 = Item.byId[itemstack.id];
-         int var14 = var12.getMaxDurability() - itemstack.i();
-         int var15 = var12.getMaxDurability() - itemstack1.i();
+         int var14 = var12.getMaxDurability() - itemstack.j();
+         int var15 = var12.getMaxDurability() - itemstack1.j();
          int i1 = var14 + var15 + var12.getMaxDurability() * 10 / 100;
          int j1 = var12.getMaxDurability() - i1;
          if(j1 < 0) {
