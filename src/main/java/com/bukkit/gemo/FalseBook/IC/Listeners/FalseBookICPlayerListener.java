@@ -9,8 +9,8 @@ import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.block.Sign;
-import org.bukkit.craftbukkit.v1_5_R2.CraftWorld;
-import org.bukkit.craftbukkit.v1_5_R2.entity.CraftPlayer;
+import org.bukkit.craftbukkit.v1_5_R3.CraftWorld;
+import org.bukkit.craftbukkit.v1_5_R3.entity.CraftPlayer;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -65,7 +65,7 @@ public class FalseBookICPlayerListener implements Listener {
                CraftPlayer var10 = (CraftPlayer)player;
                CraftWorld cWorld = (CraftWorld)block.getWorld();
                // TODO - this needs to be fixed rather than commented out...
-               //net.minecraft.server.v1_5_R2.Block.byId[Material.STONE_BUTTON.getId()].interact(cWorld.getHandle(), neighbours[i].getX(), neighbours[i].getY(), neighbours[i].getZ(), var10.getHandle());
+               //net.minecraft.server.v1_5_R3.Block.byId[Material.STONE_BUTTON.getId()].interact(cWorld.getHandle(), neighbours[i].getX(), neighbours[i].getY(), neighbours[i].getZ(), var10.getHandle());
             }
          }
       }
