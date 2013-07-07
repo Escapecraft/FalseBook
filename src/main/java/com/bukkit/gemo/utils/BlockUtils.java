@@ -14,7 +14,7 @@ import org.bukkit.block.Block;
 import org.bukkit.block.Chest;
 import org.bukkit.block.Dispenser;
 import org.bukkit.block.Furnace;
-import org.bukkit.craftbukkit.v1_5_R3.CraftWorld;
+import org.bukkit.craftbukkit.v1_6_R1.CraftWorld;
 import org.bukkit.event.block.BlockPlaceEvent;
 
 public class BlockUtils {

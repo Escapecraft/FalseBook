@@ -22,6 +22,10 @@ mvn -f pom-block.xml package
 mvn -f pom-cart.xml package
 mvn -f pom-extra.xml package
 mvn -f pom-ic.xml package
+mvn -f pom-detect.xml package
+mvn -f pom-self.xml package
+mvn -f pom-std.xml package
+mvn -f pom-we.xml package
 
 Build scripts created by us.  The following modified to compile:
 - FalseBookICPlayerListener.java

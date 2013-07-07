@@ -8,7 +8,7 @@ import org.bukkit.Material;
 import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.bukkit.block.Sign;
-import org.bukkit.craftbukkit.v1_5_R3.CraftWorld;
+import org.bukkit.craftbukkit.v1_6_R1.CraftWorld;
 import org.bukkit.entity.Item;
 import org.bukkit.event.block.BlockRedstoneEvent;
 import org.bukkit.inventory.ItemStack;
