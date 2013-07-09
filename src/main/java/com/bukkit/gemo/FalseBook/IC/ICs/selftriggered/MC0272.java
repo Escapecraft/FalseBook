@@ -91,7 +91,7 @@ public class MC0272 extends SelftriggeredBaseIC {
 
          for(var4 = 0; var4 < var5; ++var4) {
             player = var6[var4];
-            if(!player.isDead() && player.isOnline() && UtilPermissions.isPlayerInGroup(player, this.detectedString, this.signBlock.getWorld().getName()) && BlockUtils.isInRange(player.getLocation(), blockLoc, this.detectionRange)) {
+            if(!player.isDead() && player.isOnline() && BlockUtils.isInRange(player.getLocation(), blockLoc, this.detectionRange) && UtilPermissions.isPlayerInGroup(player, this.detectedString, this.signBlock.getWorld().getName())) {
                this.result = true;
                break;
             }
@@ -105,7 +105,7 @@ public class MC0272 extends SelftriggeredBaseIC {
 
          for(var4 = 0; var4 < var5; ++var4) {
             player = var6[var4];
-            if(!player.isDead() && player.isOnline() && UtilPermissions.isPlayerInGroupWithoutInhetirance(player, this.detectedString, this.signBlock.getWorld().getName()) && BlockUtils.isInRange(player.getLocation(), blockLoc, this.detectionRange)) {
+            if(!player.isDead() && player.isOnline() && BlockUtils.isInRange(player.getLocation(), blockLoc, this.detectionRange) && UtilPermissions.isPlayerInGroupWithoutInhetirance(player, this.detectedString, this.signBlock.getWorld().getName())) {
                this.result = true;
                break;
             }

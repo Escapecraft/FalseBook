@@ -1,6 +1,8 @@
 package com.bukkit.gemo.utils.Permissions;
 
 import com.bukkit.gemo.utils.Permissions.SuperPermsPermissions;
+
+import java.util.ArrayList;
 import java.util.List;
 import net.milkbowl.vault.permission.Permission;
 import org.bukkit.Bukkit;
@@ -26,7 +28,7 @@ public class VaultPermissions extends SuperPermsPermissions {
    }
 
    public List getGroups(Player player) {
-      List groups = super.getGroups(player);
+      List groups = new ArrayList();
       if(this.perms == null) {
          return groups;
       } else {
@@ -46,7 +48,7 @@ public class VaultPermissions extends SuperPermsPermissions {
    }
 
    public List getGroups(String playerName, String worldName) {
-      List groups = super.getGroups(playerName, worldName);
+      List groups = new ArrayList();
       if(this.perms == null) {
          return groups;
       } else {

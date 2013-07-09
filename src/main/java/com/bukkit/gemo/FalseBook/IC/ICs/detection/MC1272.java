@@ -103,7 +103,7 @@ public class MC1272 extends BaseIC {
 
             for(var11 = 0; var11 < var12; ++var11) {
                player = var13[var11];
-               if(!player.isDead() && player.isOnline() && UtilPermissions.isPlayerInGroup(player, split[1], signBlock.getWorld().getName()) && BlockUtils.isInRange(player.getLocation(), blockLoc, range)) {
+               if(!player.isDead() && player.isOnline() && BlockUtils.isInRange(player.getLocation(), blockLoc, range) && UtilPermissions.isPlayerInGroup(player, split[1], signBlock.getWorld().getName())) {
                   result = true;
                   break;
                }
@@ -118,7 +118,7 @@ public class MC1272 extends BaseIC {
 
             for(var11 = 0; var11 < var12; ++var11) {
                player = var13[var11];
-               if(!player.isDead() && player.isOnline() && UtilPermissions.isPlayerInGroupWithoutInhetirance(player, split[1], signBlock.getWorld().getName()) && BlockUtils.isInRange(player.getLocation(), blockLoc, range)) {
+               if(!player.isDead() && player.isOnline() && BlockUtils.isInRange(player.getLocation(), blockLoc, range) && UtilPermissions.isPlayerInGroupWithoutInhetirance(player, split[1], signBlock.getWorld().getName())) {
                   result = true;
                   break;
                }
