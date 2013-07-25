@@ -9,12 +9,12 @@ import com.bukkit.gemo.utils.SignUtils;
 import com.bukkit.gemo.utils.UtilPermissions;
 import java.util.ArrayList;
 import java.util.Iterator;
-import net.minecraft.server.v1_5_R3.CraftingManager;
-import net.minecraft.server.v1_5_R3.IRecipe;
+import net.minecraft.server.v1_6_R2.CraftingManager;
+import net.minecraft.server.v1_6_R2.IRecipe;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.block.Sign;
-import org.bukkit.craftbukkit.v1_5_R3.CraftWorld;
+import org.bukkit.craftbukkit.v1_6_R2.CraftWorld;
 import org.bukkit.entity.Minecart;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.StorageMinecart;
@@ -72,11 +72,11 @@ public class Craft {
 
                for(int res = 0; res < var20.length; ++res) {
                   if(var20[res] != null && var20[res].getTypeId() != Material.AIR.getId()) {
-                     var21.setItem(res, new net.minecraft.server.v1_5_R3.ItemStack(var20[res].getTypeId(), var20[res].getAmount(), var20[res].getDurability()));
+                     var21.setItem(res, new net.minecraft.server.v1_6_R2.ItemStack(var20[res].getTypeId(), var20[res].getAmount(), var20[res].getDurability()));
                   }
                }
 
-               net.minecraft.server.v1_5_R3.ItemStack var22 = null;
+               net.minecraft.server.v1_6_R2.ItemStack var22 = null;
                ItemStack resultStack = new ItemStack(((FBBlockType)toCraftMat.get(0)).getItemID(), 1, ((FBBlockType)toCraftMat.get(0)).getItemData());
                int nowAmount = 0;
 
@@ -87,7 +87,7 @@ public class Craft {
                      if(var21.getItem(result) != null && var21.getItem(result).id != Material.AIR.getId()) {
                         --var21.getItem(result).count;
                         if(var21.getItem(result).count < 1) {
-                           var21.setItem(result, (net.minecraft.server.v1_5_R3.ItemStack)null);
+                           var21.setItem(result, (net.minecraft.server.v1_6_R2.ItemStack)null);
                         }
                      }
                   }
