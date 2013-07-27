@@ -1,13 +1,13 @@
 package com.bukkit.gemo.FalseBook.Cart.utils;
 
 import java.util.ArrayList;
-import net.minecraft.server.v1_6_R1.CraftingManager;
-import net.minecraft.server.v1_6_R1.IRecipe;
-import net.minecraft.server.v1_6_R1.InventoryCrafting;
-import net.minecraft.server.v1_6_R1.Item;
-import net.minecraft.server.v1_6_R1.ItemStack;
-import net.minecraft.server.v1_6_R1.ShapelessRecipes;
-import net.minecraft.server.v1_6_R1.World;
+import net.minecraft.server.v1_6_R2.CraftingManager;
+import net.minecraft.server.v1_6_R2.IRecipe;
+import net.minecraft.server.v1_6_R2.InventoryCrafting;
+import net.minecraft.server.v1_6_R2.Item;
+import net.minecraft.server.v1_6_R2.ItemStack;
+import net.minecraft.server.v1_6_R2.ShapelessRecipes;
+import net.minecraft.server.v1_6_R2.World;
 
 public class FBCraftingManager {
 

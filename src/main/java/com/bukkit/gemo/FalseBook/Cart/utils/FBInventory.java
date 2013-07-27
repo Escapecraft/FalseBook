@@ -1,9 +1,9 @@
 package com.bukkit.gemo.FalseBook.Cart.utils;
 
-import net.minecraft.server.v1_6_R1.Container;
-import net.minecraft.server.v1_6_R1.EntityHuman;
-import net.minecraft.server.v1_6_R1.InventoryCrafting;
-import net.minecraft.server.v1_6_R1.ItemStack;
+import net.minecraft.server.v1_6_R2.Container;
+import net.minecraft.server.v1_6_R2.EntityHuman;
+import net.minecraft.server.v1_6_R2.InventoryCrafting;
+import net.minecraft.server.v1_6_R2.ItemStack;
 
 public class FBInventory extends InventoryCrafting {
 

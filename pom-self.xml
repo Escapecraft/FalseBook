@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.escapecraft.falsebook</groupId>
   <artifactId>Package_SelftriggeredICs</artifactId>
-  <version>0.93.1alpha-1.6.1-ec</version>
+  <version>0.93.1alpha-1.6.2-ec</version>
   <packaging>jar</packaging>
   <name>SelftriggeredICs</name>
   <url></url>
@@ -26,12 +26,12 @@
     <dependency>
       <groupId>org.bukkit</groupId>
       <artifactId>bukkit</artifactId>
-      <version>1.6.1-R0.1-SNAPSHOT</version>
+      <version>1.6.2-R0.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.bukkit</groupId>
       <artifactId>craftbukkit</artifactId>
-      <version>1.6.1-R0.1-SNAPSHOT</version>
+      <version>1.6.2-R0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
 

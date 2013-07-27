@@ -6,10 +6,10 @@ import com.bukkit.gemo.FalseBook.IC.ICs.ICGroup;
 import com.bukkit.gemo.FalseBook.IC.ICs.InputState;
 import com.bukkit.gemo.utils.ICUtils;
 import com.bukkit.gemo.utils.SignUtils;
-import net.minecraft.server.v1_6_R1.EntityArrow;
+import net.minecraft.server.v1_6_R2.EntityArrow;
 import org.bukkit.Location;
 import org.bukkit.block.Sign;
-import org.bukkit.craftbukkit.v1_6_R1.CraftWorld;
+import org.bukkit.craftbukkit.v1_6_R2.CraftWorld;
 import org.bukkit.event.block.SignChangeEvent;
 import org.bukkit.util.Vector;
 
